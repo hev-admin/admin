@@ -1,0 +1,11 @@
+{
+  "name": "create-hev-admin",
+  "type": "module",
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "preview": ""
+  },
+  "devDependencies": {
+  }
+}

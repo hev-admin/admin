@@ -1,0 +1,28 @@
+{
+  "name": "server-koa",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "node dist/app.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^13.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^4.0.4",
+    "koa-response-time": "^2.1.0",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "mysql2": "^3.11.5",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "vite-plugin-node": "^4.0.0"
+  }
+}
