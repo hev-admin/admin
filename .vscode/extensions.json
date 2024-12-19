@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "echoapi.echoapi-for-vscode",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "vue.volar",
+    "antfu.unocss",
+    "antfu.iconify"
+  ]
+}

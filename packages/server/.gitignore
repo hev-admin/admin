@@ -1,0 +1,8 @@
+.env*
+!*.example*
+pm2.json
+www/upload/**/*
+!www/upload/.gitkeep
+prisma/migrations
+prisma/*.db
+prisma/*.db-journal

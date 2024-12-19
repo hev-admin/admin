@@ -1,0 +1,7 @@
+* {
+  color: var(--el-text-color-primary);
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

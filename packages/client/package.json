@@ -1,0 +1,47 @@
+{
+  "name": "@hev-admin/client",
+  "type": "module",
+  "version": "0.5.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx simple-git-hooks",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^12.8.2",
+    "element-plus": "^2.9.10",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.3.0",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@iconify/utils": "^2.3.0",
+    "@unocss/eslint-plugin": "^65.5.0",
+    "@unocss/preset-rem-to-px": "^65.5.0",
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "eslint-plugin-vue": "^9.33.0",
+    "unocss": "^65.5.0",
+    "unplugin-auto-import": "^19.2.0",
+    "unplugin-imagemin": "^0.6.7",
+    "unplugin-vue-components": "^28.5.0",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-mkcert": "^1.17.8",
+    "vite-plugin-obfuscator": "^1.0.5",
+    "vite-plugin-vue-devtools": "^7.7.6"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
